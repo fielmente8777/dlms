@@ -1,5 +1,3 @@
-import { ArrowUpIcons } from "@/utils/icons";
-
 interface OnlyButtonProps {
   label: string;
   className?: string;
@@ -18,9 +16,6 @@ const OnlyButton: React.FC<OnlyButtonProps> = ({
       onClick={onclick}
     >
       {label}
-      <span>
-        <ArrowUpIcons />
-      </span>
     </button>
   );
 };
