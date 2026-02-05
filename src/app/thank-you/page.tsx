@@ -1,16 +1,15 @@
 import LinkButton from "@/components/buttons/LinkButton";
 import { SectionWithContainer } from "@/components/sectionComponants";
 import Image from "next/image";
-import { imageLink } from "../(home)/components/LandingPageData";
 
 const page = () => {
   return (
     <main className="flex justify-center items-center h-dvh">
       <SectionWithContainer>
         <div className="grid md:grid-cols-2 gap-6 items-center">
-          <div className="relative max-w-96 w-full aspect-square bg-primary">
+          <div className="relative max-w-96 w-full aspect-square bg-secondary">
             <Image
-              src={imageLink + "/logo.png"}
+              src={"/logo.png"}
               alt="Logo"
               fill
               className="object-contain"
@@ -31,7 +30,7 @@ const page = () => {
                   href="/"
                   label="Go to Home Page"
                   showSecureBadge={false}
-                  className="bg-white text-secondary flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-x-105 active:scale-95 hover:shadow-lg capitalize"
+                  className="bg-white text-secondary flex items-center rounded-full justify-center gap-2 transition-all duration-300 ease-in-out hover:scale-x-105 active:scale-95 hover:shadow-lg capitalize"
                 />
               </div>
             </div>
