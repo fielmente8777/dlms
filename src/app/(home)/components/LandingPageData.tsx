@@ -55,7 +55,6 @@ export const landingPageData = {
       "<b>Reliable Supply Chain:</b> Timely delivery that keeps your project on schedule and budget.",
     ],
   },
-
   aiSolutionData: {
     title: "Our AI-Powered Solution",
     subtitle: "Crafted for <b>Hospitality</b>",
