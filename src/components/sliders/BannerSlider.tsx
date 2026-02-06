@@ -1,16 +1,24 @@
 "use client";
-import { Navigation } from "swiper/modules";
+import { Autoplay, FreeMode, Navigation } from "swiper/modules";
 import SwiperCarousel from "./SwiperCarousel";
 import Image from "next/image";
 
 const BannerSlider = ({ images }: { images: string[] }) => {
   return (
-    <div>
+    <div className="demo">
       <SwiperCarousel
         data={images}
         slidesPerView={1}
-        spaceBetween={0}
-        modules={[Navigation]}
+        spaceBetween={16}
+        modules={[Navigation, Autoplay, FreeMode]}
+        freeMode={true}
+        autoplay={{
+          delay: 100,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: false,
+        }}
+        loop
+        speed={10000}
         navigation={{
           nextEl: ".banner-next",
           prevEl: ".banner-prev",

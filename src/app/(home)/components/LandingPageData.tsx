@@ -4,7 +4,7 @@ export const landingPageData = {
   bannerData: {
     title:
       "<b class='max-md:text-[2.5rem]'>AI-Powered</b> <br/> Hospitality Furnishing Solution",
-    images: ["/banner.webp", "/banner.webp"],
+    images: ["/banner.webp", "/dlms_1.webp","/dlms_2.webp","/dlms_3.webp"],
   },
   title: ["Sofas & Seating", "Beds & Bedroom Furniture"],
 
@@ -30,10 +30,10 @@ export const landingPageData = {
       "We collaborate with hospitality brands, hotel owners, and developers to deliver seamlessly executed furnishing solutions. Working closely with architects, designers, and project teams, we support premium and large-scale hospitality projects worldwide with precision, consistency, and design excellence.",
     sectors: [
       { title: ["Hotel", "Furniture"], src: "/im-5.webp" },
-      { title: ["Restaurant", "Furniture"], src: "/im-5.webp" },
-      { title: ["Cafe & Bar", "Furniture"], src: "/im-5.webp" },
-      { title: ["Co-Living", "Furniture"], src: "/im-5.webp" },
-      { title: ["Bnb", "Furniture"], src: "/im-5.webp" },
+      { title: ["Restaurant", "Furniture"], src: "/dlms_5.webp" },
+      { title: ["Cafe & Bar", "Furniture"], src: "/dlms_6.webp" },
+      { title: ["Co-Living", "Furniture"], src: "/dlms_7.webp" },
+      { title: ["Bnb", "Furniture"], src: "/dlms_4.webp" },
     ],
     link: {
       href: "#",

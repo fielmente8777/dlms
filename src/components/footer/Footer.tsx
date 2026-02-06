@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
           {data.lists.map((list, index) => (
             <div
-              className={`${index === 1 ? "lg:w-fit lg:ml-auto" : ""} flex flex-col gap-4`}
+              className={`${index === 1 ? "lg:w-fit lg:ml-auto" : ""} flex flex-col gap-4 md:gap-6`}
               key={index}
             >
               <div className="md:space-y-4 space-y-2">
@@ -112,7 +112,7 @@ const Footer = () => {
               </ul>
             </div>
           ))}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 md:gap-6">
             <div className="md:space-y-4 space-y-2">
               <h2 className="md:text-5xl text-white font-eb text-3xl">
                 Contact Us
@@ -125,16 +125,16 @@ const Footer = () => {
       </Container>
       <div className="bg-primary h-0.5 w-full max_width" />
       <Container className="py-4 flex max-md:flex-col items-center gap-3.5 justify-between">
-        <div className="flex items-center justify-center gap-2 text-white md:text-lg">
+        <div className="md:flex max-md:space-x-2 text-center flex-wrap items-center justify-center gap-2 text-white md:text-lg">
           {" "}
-          <p className="text-white! inline-block">
+          <span className="text-white">
             © {new Date().getFullYear()} DLMS Furnishings
-          </p>
+          </span>
           <span className="md:block hidden">|</span>
-          <p className="text-white! inline-block">All Rights Reserved</p>
+          <span className="text-white">All Rights Reserved</span>
           {/* <span className="md:block hidden">|</span> */}
         </div>
-        <p className="text-white!">Crafted with care by Eazotel</p>
+        <p className="text-white!">Crafted with care by <b>Eazotel</b></p>
       </Container>
     </footer>
   );

@@ -47,7 +47,7 @@ const SectorSection: React.FC<SectorSectionProps> = ({ sectors, link }) => {
                 max-md:p-4
               "
             >
-              <span className="sector-index">{(index ?? 0) + 1}</span>
+              <span className="sector-index text-4xl">{(index ?? 0) + 1}</span>
 
               <span className="flex flex-col">
                 <span className="text-start text-4xl text-nowrap">
