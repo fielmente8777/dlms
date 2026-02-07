@@ -134,7 +134,7 @@ const Footer = () => {
           <span className="text-white">All Rights Reserved</span>
           {/* <span className="md:block hidden">|</span> */}
         </div>
-        <p className="text-white!">Crafted with care by <b>Eazotel</b></p>
+        <p className="text-white!">Crafted with care by <Link href="https://www.fielmente.com/" className="font-bold" target="_blank">Fielmente</Link></p>
       </Container>
     </footer>
   );
