@@ -54,7 +54,7 @@ const Milestone: React.FC<MilestoneProps> = ({ stats }) => {
                   {stat.value}
                 </span>
                 <span
-                  className="text-lg bold-text"
+                  className="text-lg bold-text text-nowrap text-center"
                   dangerouslySetInnerHTML={{ __html: stat.label }}
                 />
               </div>
