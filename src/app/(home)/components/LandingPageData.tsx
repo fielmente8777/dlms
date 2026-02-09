@@ -4,7 +4,7 @@ export const landingPageData = {
   bannerData: {
     title:
       "<b class='max-md:text-[2.5rem]'>AI-Powered</b> <br/> Hospitality Furnishing Solution",
-    images: ["/banner.webp", "/dlms_1.webp","/dlms_2.webp","/dlms_3.webp"],
+    images: ["/banner.webp", "/dlms_1.webp", "/dlms_2.webp", "/dlms_3.webp"],
   },
   title: ["Sofas & Seating", "Beds & Bedroom Furniture"],
 
@@ -89,7 +89,8 @@ export const landingPageData = {
 
   teamData: {
     title: "Our Team",
-    subtitle: "Meet the experts behind hospitality furnishing <b>excellence</b>",
+    subtitle:
+      "Meet the experts behind hospitality furnishing <b>excellence</b>",
     members: [
       {
         name: "Rahul Mehta",
@@ -118,8 +119,24 @@ export const landingPageData = {
         text: "Our guests consistently compliment the lobby design. Their pieces weren’t just furniture — they became the statement we were looking for. The entire space now feels more refined, warm, and inviting, and it truly leaves a lasting impression from the moment guests walk in. We couldn’t be happier with how everything turned out.",
       },
       {
-        name: "Daniel Parker",
-        text: "Our guests consistently compliment the lobby design. Their pieces weren’t just furniture — they became the statement we were looking for. The entire space now feels more refined, warm, and inviting, and it truly leaves a lasting impression from the moment guests walk in. We couldn’t be happier with how everything turned out.",
+        name: "Jennifer Clarke",
+        text: "We needed furniture that could handle high guest turnover while still looking refined. DLMS provided pieces that are both durable and visually appealing.",
+      },
+      {
+        name: "Daniel Roberts",
+        text: "The entire process was professional and well-organized. From design approvals to final installation, everything was handled efficiently.",
+      },
+      {
+        name: "Andrew Collins",
+        text: "Every room turned out exactly as we envisioned. The consistency in finish and build quality across all units was impressive.",
+      },
+      {
+        name: "Sophie Tremblay",
+        text: "DLMS helped us refresh our interiors with modern, well-crafted furniture. Guest feedback since the upgrade has been very positive.",
+      },
+      {
+        name: "Ryan Patel",
+        text: "They met our renovation timelines without compromising on quality. The final result looks polished and built to last.",
       },
     ],
   },

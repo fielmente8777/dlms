@@ -1,4 +1,4 @@
-import { BtnNext, BtnPrev } from "@/utils/sliderButtonIcon";
+// import { BtnNext, BtnPrev } from "@/utils/sliderButtonIcon";
 import { Container, Section } from "../sectionComponants";
 import BannerSlider from "../sliders/BannerSlider";
 
@@ -17,14 +17,14 @@ const Banner: React.FC<BannerProps> = ({ title, images }) => {
             className="text-2xl max-md:text-center md:text-6xl"
             dangerouslySetInnerHTML={{ __html: title }}
           />
-          <div className="md:flex hidden items-end gap-4 md:ml-auto">
+          {/* <div className="md:flex hidden items-end gap-4 md:ml-auto">
             <button className="bg-secondary text-primary px-6 py-2 rounded-full banner-prev">
               <BtnPrev />
             </button>
             <button className="bg-secondary text-primary px-6 py-2 rounded-full banner-next">
               <BtnNext />
             </button>
-          </div>
+          </div> */}
         </Container>
       </div>
     </Section>

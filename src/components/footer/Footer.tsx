@@ -1,12 +1,12 @@
 "use client";
-import { contact } from "@/utils/constent";
-import Image from "next/image";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import LinkButton from "../buttons/LinkButton";
+// import { contact } from "@/utils/constent";
+// import Image from "next/image";
+// import Link from "next/link";
+// import LinkButton from "../buttons/LinkButton";
+// import { footerData } from "./footerdata";
+// import Form1 from "../forms/Form1";
 import { Container } from "../sectionComponants";
-import { footerData } from "./footerdata";
-import Form1 from "../forms/Form1";
+import { usePathname } from "next/navigation";
 
 const Footer = () => {
   const pathName = usePathname();
@@ -14,10 +14,10 @@ const Footer = () => {
     return null;
   }
 
-  const data = footerData;
+  // const data = footerData;
   return (
     <footer className="max_screen_width bg-secondary">
-      <Container>
+      {/* <Container>
         <div className="grid md:py-12 py-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-4">
           <div className=" flex flex-col gap-3">
             <div
@@ -123,7 +123,7 @@ const Footer = () => {
           </div>
         </div>
       </Container>
-      <div className="bg-primary h-0.5 w-full max_width" />
+      <div className="bg-primary h-0.5 w-full max_width" /> */}
       <Container className="py-4 flex max-md:flex-col items-center gap-3.5 justify-between">
         <div className="md:flex max-md:space-x-2 text-center flex-wrap items-center justify-center gap-2 text-white md:text-lg">
           {" "}

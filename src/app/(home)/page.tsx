@@ -19,7 +19,7 @@ export default function Home() {
       <WhyPartner {...landingPageData.whyPartnerData} />
       <AiSolution {...landingPageData.aiSolutionData} />
       <Milestone {...landingPageData.milestoneData} />
-      <OurTeam {...landingPageData.teamData} />
+      {/* <OurTeam {...landingPageData.teamData} /> */}
       <Testimonials {...landingPageData.testimonialData} />
     </main>
   );
