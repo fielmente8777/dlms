@@ -1,7 +1,7 @@
 "use client";
+import Link from "next/link";
 // import { contact } from "@/utils/constent";
 // import Image from "next/image";
-// import Link from "next/link";
 // import LinkButton from "../buttons/LinkButton";
 // import { footerData } from "./footerdata";
 // import Form1 from "../forms/Form1";
