@@ -4,8 +4,8 @@ Please connect me with your team.
 Thanks.
 `);
 export const contact = {
-  email: "Lorem ipsum@123.com",
-  phone: ["+1 xxx xxxx xxx",],
+  email: "Info@dlmsfurnishings.com",
+  phone: ["+1 647 513 4942",],
   address: "Lorem ipsum dolor sit amet consectetur",
   addressLink: "",
   socialMedia: {
@@ -13,7 +13,7 @@ export const contact = {
     instagram: "https://instagram.com/",
     linkedin: "https://www.linkedin.com/",
   },
-  WhatsappCta: `https://wa.me/+1xxxxxxxxxx?text=${enCodeText}`,
+  WhatsappCta: `https://wa.me/+16475134942?text=${enCodeText}`,
   formDomain: "test-multi",
 };
 

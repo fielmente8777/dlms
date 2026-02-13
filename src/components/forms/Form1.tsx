@@ -4,8 +4,6 @@ import { contact, countries } from "@/utils/constent";
 import { FillMail, FillMessage, FillPhoneIcon, UserIcon } from "@/utils/icons";
 import axios from "axios";
 import { ChangeEvent, useRef, useState } from "react";
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
 
 interface formProps {
   setOpen?: React.Dispatch<React.SetStateAction<boolean>>;
@@ -15,11 +13,9 @@ interface formProps {
 
 const Form1: React.FC<formProps> = ({
   setOpen,
-  gridView = false,
-  rounded = false,
 }) => {
   const formRef = useRef<HTMLFormElement | null>(null);
-  const [countryCode, setCountryCode] = useState("+91");
+  const [countryCode, setCountryCode] = useState("+1");
   const { min } = getDateInputLimits({
     showPast: false,
   });

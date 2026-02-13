@@ -8,6 +8,7 @@ import "./globals.css";
 import "./style.scss";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
+// import Script from "next/script";
 
 const dmsans = DM_Sans({
   subsets: ["latin"],
@@ -19,6 +20,35 @@ export const metadata: Metadata = {
   title: "DLMS Furnishings | AI-Powered Hospitality Furniture Solutions",
   description:
     "AI-powered hospitality furnishing solutions delivering custom sofas, beds, and contract furniture. End-to-end sourcing, manufacturing, and global installation by DLMS Furnishings.",
+  keywords: [
+    "DLMS Furnishings",
+    "AI-Powered Hospitality Furniture Solutions",
+    "Custom Sofas",
+    "Beds",
+    "Contract Furniture",
+    "End-to-End Sourcing",
+    "Manufacturing",
+    "Global Installation",
+  ],
+  alternates: {
+    canonical: "https://www.dlmsfurnishings.com/",
+    languages: {
+      en: "https://www.dlmsfurnishings.com/en",
+    },
+  },
+  openGraph: {
+    title: "DLMS Furnishings | AI-Powered Hospitality Furniture Solutions",
+    description:
+      "AI-powered hospitality furnishing solutions delivering custom sofas, beds, and contract furniture. End-to-end sourcing, manufacturing, and global installation by DLMS Furnishings.",
+    images: [
+      {
+        url: "https://dlmsfurnishings.com/og-image.png",
+        width: 800,
+        height: 600,
+        alt: "DLMS Furnishings",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

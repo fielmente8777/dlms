@@ -1,3 +1,4 @@
+import { contact } from "@/utils/constent";
 import { CountriesIcon, CustomMadeIcon, ProjectIcon } from "@/utils/icons";
 
 export const landingPageData = {
@@ -18,7 +19,7 @@ export const landingPageData = {
     ],
     images: ["/about-1.webp", "/about-2.webp", "/about-3.png"],
     link: {
-      href: "#",
+      href: contact.WhatsappCta,
       label: "Contact Us",
     },
   },
@@ -36,7 +37,7 @@ export const landingPageData = {
       { title: ["Bnb", "Furniture"], src: "/dlms_4.webp" },
     ],
     link: {
-      href: "#",
+      href: contact.WhatsappCta,
       label: "Contact Us",
     },
   },
@@ -44,7 +45,7 @@ export const landingPageData = {
   whyPartnerData: {
     title: "Why Partner Choose <b>DLMS</b> ?",
     link: {
-      href: "#",
+      href: contact.WhatsappCta,
       label: "Contact Us",
     },
     points: [

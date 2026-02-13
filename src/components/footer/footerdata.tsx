@@ -1,10 +1,8 @@
 import { contact } from "@/utils/constent";
 import {
   FillCallIcon,
-  FillFaceBookIcon,
-  FillInstaIcon,
   FillLocationIcon,
-  FillMailIcon,
+  FillMailIcon
 } from "@/utils/icons";
 
 interface FooterData {
@@ -31,11 +29,11 @@ export const footerData: FooterData = {
     {
       title: "Office Details",
       links: [
-        {
-          icon: <FillLocationIcon />,
-          label: contact.address,
-          href: contact.addressLink,
-        },
+        // {
+        //   icon: <FillLocationIcon />,
+        //   label: contact.address,
+        //   href: contact.addressLink,
+        // },
         {
           title: "Call: ",
           icon: <FillCallIcon />,

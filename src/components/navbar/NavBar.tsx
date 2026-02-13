@@ -14,7 +14,7 @@ const NavBar = () => {
         <Link
           target="_blank"
           rel="noopener noreferrer"
-          href={`tel:${contact}`}
+          href={`tel:${contact.phone[0]}`}
           className="w-fit bg-primary flex items-center gap-2 text-secondary text-lg md:px-8 md:py-3 p-4 transition-all duration-300 ease-in-out hover:scale-95 rounded-full hover:shadow-lg"
         >
           <span className="max-md:hidden">Inquire Now</span>
