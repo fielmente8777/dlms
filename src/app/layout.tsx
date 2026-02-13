@@ -8,7 +8,7 @@ import "./globals.css";
 import "./style.scss";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
-// import Script from "next/script";
+import Script from "next/script";
 
 const dmsans = DM_Sans({
   subsets: ["latin"],
@@ -98,19 +98,19 @@ export default function RootLayout({
           <Whatsapp whatsAppNumber={contact.phone[0]} />
         </WebProvider>
       </body>
-      
-<Script id="chatbot-config" strategy="afterInteractive">
-  { `
+
+      <Script id="chatbot-config" strategy="afterInteractive">
+        {`
     window.eazbotConfig = {
        ndid: "898fc5d1-6c66-40ce-b461-2c90ff589382",
        hid: "54625654",
     };
-  ` }
-</Script>
-<Script
-  src="https://cb-script.dyq28lyxrazm2.amplifyapp.com/widget/lead-chatbot.js"
-  strategy="afterInteractive"
-/>
+  `}
+      </Script>
+      <Script
+        src="https://cb-script.dyq28lyxrazm2.amplifyapp.com/widget/lead-chatbot.js"
+        strategy="afterInteractive"
+      />
     </html>
   );
 }
