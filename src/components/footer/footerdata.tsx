@@ -29,11 +29,11 @@ export const footerData: FooterData = {
     {
       title: "Office Details",
       links: [
-        // {
-        //   icon: <FillLocationIcon />,
-        //   label: contact.address,
-        //   href: contact.addressLink,
-        // },
+        {
+          icon: <FillLocationIcon />,
+          label: contact.address,
+          href: contact.addressLink,
+        },
         {
           title: "Call: ",
           icon: <FillCallIcon />,
