@@ -6,7 +6,7 @@ Thanks.
 export const contact = {
   email: "Info@dlmsfurnishings.com",
   phone: ["+1 647 513 4942",],
-  address: "22 stellarton crescent Brampton, Ontario L7A5A6 Canada",
+  address: "2084 Steeles Ave E, Unit-2 Brampton, ON L6T 5A6",
   addressLink: "",
   socialMedia: {
     facebook: "https://www.facebook.com/",
