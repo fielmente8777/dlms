@@ -3,10 +3,10 @@ import { CountriesIcon, CustomMadeIcon, ProjectIcon } from "@/utils/icons";
 
 export const landingPageData = {
   bannerData: {
-    title:
-      "<b class='max-md:text-[2.5rem]'>AI-Powered</b> <br/> Hospitality Furnishing Solution",
-    images: ["/banner.webp", "/dlms_1.webp", "/dlms_2.webp", "/dlms_3.webp"],
-  },
+  title:
+    "<b class='max-md:text-[2.5rem]'>FF&E Solutions,</b> <br/> delivered flawlessly.",
+  images: ["/banner.webp", "/dlms_1.webp", "/dlms_2.webp", "/dlms_3.webp"],
+},
   title: ["Sofas & Seating", "Beds & Bedroom Furniture"],
 
   aboutData: {

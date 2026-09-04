@@ -18,7 +18,7 @@ export default function Home() {
       <SlidingTitle titles={landingPageData.title} />
       <WhyPartner {...landingPageData.whyPartnerData} />
       <AiSolution {...landingPageData.aiSolutionData} />
-      <Milestone {...landingPageData.milestoneData} />
+      {/* <Milestone {...landingPageData.milestoneData} /> */}
       {/* <OurTeam {...landingPageData.teamData} /> */}
       <Testimonials {...landingPageData.testimonialData} />
     </main>
