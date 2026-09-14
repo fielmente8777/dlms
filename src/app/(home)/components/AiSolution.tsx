@@ -19,7 +19,7 @@ const AiSolution: React.FC<AiSolutionProps> = ({
 }) => {
   return (
     <SectionWithContainer defaultPadding={false} sectionClassName="md:py-12 py-8">
-      <div className="grid md:grid-cols-2 grid-cols-1 items-center max-md:gap-4">
+      <div className="grid md:grid-cols-2 grid-cols-1 items-start max-md:gap-4">
         <div className="md:space-y-4 space-y-2">
           <SectionHeading
             title={title}

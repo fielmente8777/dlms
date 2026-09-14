@@ -57,7 +57,7 @@ export const landingPageData = {
     ],
   },
   aiSolutionData: {
-    title: "Our AI-Powered Solution",
+    title: "",
     subtitle: "Crafted for <b>Hospitality</b>",
     description:
       "Powered by advanced technology, responsible practices, and tailored expertise, DLMS delivers end-to-end furnishing solutions for the hospitality industry, from Concept Design & Strategic Sourcing to Integrated Manufacturing, Global Installation, and Flexible Financing.",

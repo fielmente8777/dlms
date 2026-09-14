@@ -1,5 +1,5 @@
 export const enCodeText = encodeURIComponent(`Hello DLMS Furnishings,  
-I’m exploring furnishing solutions for a hospitality project and would like to learn more about your AI-powered, end-to-end services including design, sourcing, and installation.  
+I’m exploring furnishing solutions for a hospitality project and would like to learn more about your end-to-end services including design, sourcing, and installation.  
 Please connect me with your team.  
 Thanks.
 `);

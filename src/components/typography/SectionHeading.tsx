@@ -48,37 +48,39 @@ const SectionHeading: React.FC<SectionHeadingDescProps> = ({
           <Image src={"/logo3.png"} alt="logo" width={130} height={130} />
         </div>
       )}
-      <div className={`${line && "lg:flex items-center gap-4 mx-auto"}`}>
-        {line && (
-          <span className="lg:block hidden">
-            <LineRight />
-          </span>
-        )}
-        {title && (
-          <Headings
-            level={titleLevel}
-            heading={title}
-            className={`${titleClassName} ${
-              mdTextCenter ? "md:text-center" : ""
-            } ${textCenter ? "text-center" : ""} ${
-              smTextCenter ? "max-md:text-center" : ""
-            } ${
-              titleColor ? `text-${titleColor}` : "text-secondary"
-            } text-[1.063rem] uppercase`}
-          />
-        )}
+      {(title || line) && (
+        <div className={`${line ? "lg:flex items-center gap-4 mx-auto" : ""}`}>
+          {line && (
+            <span className="lg:block hidden">
+              <LineRight />
+            </span>
+          )}
+          {title && (
+            <Headings
+              level={titleLevel}
+              heading={title}
+              className={`${titleClassName} ${
+                mdTextCenter ? "md:text-center" : ""
+              } ${textCenter ? "text-center" : ""} ${
+                smTextCenter ? "max-md:text-center" : ""
+              } ${
+                titleColor ? `text-${titleColor}` : "text-secondary"
+              } text-[1.063rem] uppercase`}
+            />
+          )}
 
-        {line && (
-          <span className="lg:block hidden">
-            <LineLeft />
-          </span>
-        )}
-        {line && (
-          <span className="lg:hidden block mx-auto mt-2 w-fit">
-            <BottomLine />
-          </span>
-        )}
-      </div>
+          {line && (
+            <span className="lg:block hidden">
+              <LineLeft />
+            </span>
+          )}
+          {line && (
+            <span className="lg:hidden block mx-auto mt-2 w-fit">
+              <BottomLine />
+            </span>
+          )}
+        </div>
+      )}
       {subTitle && (
         <Headings
           level={subTitleLevel}

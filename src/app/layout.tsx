@@ -17,12 +17,12 @@ const dmsans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "DLMS Furnishings | AI-Powered Hospitality Furniture Solutions",
+  title: "DLMS Furnishings | Hospitality Furniture Solutions",
   description:
-    "AI-powered hospitality furnishing solutions delivering custom sofas, beds, and contract furniture. End-to-end sourcing, manufacturing, and global installation by DLMS Furnishings.",
+    "Hospitality furnishing solutions delivering custom sofas, beds, and contract furniture. End-to-end sourcing, manufacturing, and global installation by DLMS Furnishings.",
   keywords: [
     "DLMS Furnishings",
-    "AI-Powered Hospitality Furniture Solutions",
+    "Hospitality Furniture Solutions",
     "Custom Sofas",
     "Beds",
     "Contract Furniture",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "DLMS Furnishings | AI-Powered Hospitality Furniture Solutions",
+    title: "DLMS Furnishings | Hospitality Furniture Solutions",
     description:
-      "AI-powered hospitality furnishing solutions delivering custom sofas, beds, and contract furniture. End-to-end sourcing, manufacturing, and global installation by DLMS Furnishings.",
+      "Hospitality furnishing solutions delivering custom sofas, beds, and contract furniture. End-to-end sourcing, manufacturing, and global installation by DLMS Furnishings.",
     images: [
       {
         url: "https://dlmsfurnishings.com/og-image.png",

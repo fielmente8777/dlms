@@ -24,7 +24,7 @@ interface FooterData {
 export const footerData: FooterData = {
   logo: "/logo.png",
   description:
-    "DLMS delivers AI-driven, end-to-end luxury furnishings that optimize design, materials, and execution, engineered for beauty, durability, and performance at scale.",
+    "DLMS delivers end-to-end luxury furnishings that optimize design, materials, and execution, engineered for beauty, durability, and performance at scale.",
   lists: [
     {
       title: "Office Details",
