@@ -11,6 +11,7 @@ interface AiSolutionProps {
     thumbnail: string;
   };
 }
+
 const AiSolution: React.FC<AiSolutionProps> = ({
   title,
   subtitle,
